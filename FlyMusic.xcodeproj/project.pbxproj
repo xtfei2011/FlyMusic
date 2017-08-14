@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791680B81F412BE500906716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 791680B71F412BE500906716 /* main.m */; };
+		791680BB1F412BE500906716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 791680BA1F412BE500906716 /* AppDelegate.m */; };
+		791680BE1F412BE500906716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791680BD1F412BE500906716 /* ViewController.m */; };
+		791680C11F412BE500906716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791680BF1F412BE500906716 /* Main.storyboard */; };
+		791680C31F412BE500906716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791680C21F412BE500906716 /* Assets.xcassets */; };
+		791680C61F412BE500906716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791680C41F412BE500906716 /* LaunchScreen.storyboard */; };
+		791680D11F412BE600906716 /* FlyMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791680D01F412BE600906716 /* FlyMusicTests.m */; };
+		791680DC1F412BE600906716 /* FlyMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791680DB1F412BE600906716 /* FlyMusicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		791680CD1F412BE600906716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791680AB1F412BE500906716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791680B21F412BE500906716;
+			remoteInfo = FlyMusic;
+		};
+		791680D81F412BE600906716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791680AB1F412BE500906716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791680B21F412BE500906716;
+			remoteInfo = FlyMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		791680B31F412BE500906716 /* FlyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		791680B71F412BE500906716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		791680B91F412BE500906716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		791680BA1F412BE500906716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		791680BC1F412BE500906716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		791680BD1F412BE500906716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		791680C01F412BE500906716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		791680C21F412BE500906716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		791680C51F412BE500906716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		791680C71F412BE500906716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791680CC1F412BE500906716 /* FlyMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		791680D01F412BE600906716 /* FlyMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyMusicTests.m; sourceTree = "<group>"; };
+		791680D21F412BE600906716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791680D71F412BE600906716 /* FlyMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		791680DB1F412BE600906716 /* FlyMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyMusicUITests.m; sourceTree = "<group>"; };
+		791680DD1F412BE600906716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791680B01F412BE500906716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791680C91F412BE500906716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791680D41F412BE600906716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791680AA1F412BE500906716 = {
+			isa = PBXGroup;
+			children = (
+				791680B51F412BE500906716 /* FlyMusic */,
+				791680CF1F412BE600906716 /* FlyMusicTests */,
+				791680DA1F412BE600906716 /* FlyMusicUITests */,
+				791680B41F412BE500906716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791680B41F412BE500906716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791680B31F412BE500906716 /* FlyMusic.app */,
+				791680CC1F412BE500906716 /* FlyMusicTests.xctest */,
+				791680D71F412BE600906716 /* FlyMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791680B51F412BE500906716 /* FlyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				791680B91F412BE500906716 /* AppDelegate.h */,
+				791680BA1F412BE500906716 /* AppDelegate.m */,
+				791680BC1F412BE500906716 /* ViewController.h */,
+				791680BD1F412BE500906716 /* ViewController.m */,
+				791680BF1F412BE500906716 /* Main.storyboard */,
+				791680C21F412BE500906716 /* Assets.xcassets */,
+				791680C41F412BE500906716 /* LaunchScreen.storyboard */,
+				791680C71F412BE500906716 /* Info.plist */,
+				791680B61F412BE500906716 /* Supporting Files */,
+			);
+			path = FlyMusic;
+			sourceTree = "<group>";
+		};
+		791680B61F412BE500906716 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				791680B71F412BE500906716 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791680CF1F412BE600906716 /* FlyMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				791680D01F412BE600906716 /* FlyMusicTests.m */,
+				791680D21F412BE600906716 /* Info.plist */,
+			);
+			path = FlyMusicTests;
+			sourceTree = "<group>";
+		};
+		791680DA1F412BE600906716 /* FlyMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				791680DB1F412BE600906716 /* FlyMusicUITests.m */,
+				791680DD1F412BE600906716 /* Info.plist */,
+			);
+			path = FlyMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791680B21F412BE500906716 /* FlyMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791680E01F412BE600906716 /* Build configuration list for PBXNativeTarget "FlyMusic" */;
+			buildPhases = (
+				791680AF1F412BE500906716 /* Sources */,
+				791680B01F412BE500906716 /* Frameworks */,
+				791680B11F412BE500906716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyMusic;
+			productName = FlyMusic;
+			productReference = 791680B31F412BE500906716 /* FlyMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		791680CB1F412BE500906716 /* FlyMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791680E31F412BE600906716 /* Build configuration list for PBXNativeTarget "FlyMusicTests" */;
+			buildPhases = (
+				791680C81F412BE500906716 /* Sources */,
+				791680C91F412BE500906716 /* Frameworks */,
+				791680CA1F412BE500906716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791680CE1F412BE600906716 /* PBXTargetDependency */,
+			);
+			name = FlyMusicTests;
+			productName = FlyMusicTests;
+			productReference = 791680CC1F412BE500906716 /* FlyMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		791680D61F412BE600906716 /* FlyMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791680E61F412BE600906716 /* Build configuration list for PBXNativeTarget "FlyMusicUITests" */;
+			buildPhases = (
+				791680D31F412BE600906716 /* Sources */,
+				791680D41F412BE600906716 /* Frameworks */,
+				791680D51F412BE600906716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791680D91F412BE600906716 /* PBXTargetDependency */,
+			);
+			name = FlyMusicUITests;
+			productName = FlyMusicUITests;
+			productReference = 791680D71F412BE600906716 /* FlyMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791680AB1F412BE500906716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "谢腾飞";
+				TargetAttributes = {
+					791680B21F412BE500906716 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C56SAX333T;
+						ProvisioningStyle = Automatic;
+					};
+					791680CB1F412BE500906716 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C56SAX333T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 791680B21F412BE500906716;
+					};
+					791680D61F412BE600906716 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C56SAX333T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 791680B21F412BE500906716;
+					};
+				};
+			};
+			buildConfigurationList = 791680AE1F412BE500906716 /* Build configuration list for PBXProject "FlyMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 791680AA1F412BE500906716;
+			productRefGroup = 791680B41F412BE500906716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791680B21F412BE500906716 /* FlyMusic */,
+				791680CB1F412BE500906716 /* FlyMusicTests */,
+				791680D61F412BE600906716 /* FlyMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791680B11F412BE500906716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791680C61F412BE500906716 /* LaunchScreen.storyboard in Resources */,
+				791680C31F412BE500906716 /* Assets.xcassets in Resources */,
+				791680C11F412BE500906716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791680CA1F412BE500906716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791680D51F412BE600906716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791680AF1F412BE500906716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791680BE1F412BE500906716 /* ViewController.m in Sources */,
+				791680BB1F412BE500906716 /* AppDelegate.m in Sources */,
+				791680B81F412BE500906716 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791680C81F412BE500906716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791680D11F412BE600906716 /* FlyMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791680D31F412BE600906716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791680DC1F412BE600906716 /* FlyMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		791680CE1F412BE600906716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791680B21F412BE500906716 /* FlyMusic */;
+			targetProxy = 791680CD1F412BE600906716 /* PBXContainerItemProxy */;
+		};
+		791680D91F412BE600906716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791680B21F412BE500906716 /* FlyMusic */;
+			targetProxy = 791680D81F412BE600906716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		791680BF1F412BE500906716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791680C01F412BE500906716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		791680C41F412BE500906716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791680C51F412BE500906716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		791680DE1F412BE600906716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		791680DF1F412BE600906716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		791680E11F412BE600906716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C56SAX333T;
+				INFOPLIST_FILE = FlyMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xtfei.FlyMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		791680E21F412BE600906716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C56SAX333T;
+				INFOPLIST_FILE = FlyMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xtfei.FlyMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		791680E41F412BE600906716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C56SAX333T;
+				INFOPLIST_FILE = FlyMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xtfei.FlyMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyMusic.app/FlyMusic";
+			};
+			name = Debug;
+		};
+		791680E51F412BE600906716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C56SAX333T;
+				INFOPLIST_FILE = FlyMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xtfei.FlyMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyMusic.app/FlyMusic";
+			};
+			name = Release;
+		};
+		791680E71F412BE600906716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C56SAX333T;
+				INFOPLIST_FILE = FlyMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xtfei.FlyMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlyMusic;
+			};
+			name = Debug;
+		};
+		791680E81F412BE600906716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C56SAX333T;
+				INFOPLIST_FILE = FlyMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xtfei.FlyMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlyMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791680AE1F412BE500906716 /* Build configuration list for PBXProject "FlyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791680DE1F412BE600906716 /* Debug */,
+				791680DF1F412BE600906716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791680E01F412BE600906716 /* Build configuration list for PBXNativeTarget "FlyMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791680E11F412BE600906716 /* Debug */,
+				791680E21F412BE600906716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		791680E31F412BE600906716 /* Build configuration list for PBXNativeTarget "FlyMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791680E41F412BE600906716 /* Debug */,
+				791680E51F412BE600906716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		791680E61F412BE600906716 /* Build configuration list for PBXNativeTarget "FlyMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791680E71F412BE600906716 /* Debug */,
+				791680E81F412BE600906716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791680AB1F412BE500906716 /* Project object */;
+}
