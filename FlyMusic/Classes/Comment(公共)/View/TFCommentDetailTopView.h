@@ -1,0 +1,14 @@
+//
+//  TFCommentDetailTopView.h
+//  FlyMusic
+//
+//  Created by 谢腾飞 on 2017/8/18.
+//  Copyright © 2017年 谢腾飞. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "TFCommentDetail.h"
+
+@interface TFCommentDetailTopView : UIImageView
+@property (nonatomic ,strong) TFCommentDetail *commentDetail;
+@end

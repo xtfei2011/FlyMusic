@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TFSongListCell">
+            <rect key="frame" x="0.0" y="0.0" width="136" height="163"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="136" height="163"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgy-LC-2kl">
+                        <rect key="frame" x="0.0" y="0.0" width="136" height="163"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alw-EA-6fo">
+                                <rect key="frame" x="10" y="10" width="116" height="113"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.0" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歌单名称歌单名称歌单名称" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5B-5j-efW">
+                                <rect key="frame" x="10" y="128" width="116" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yueku_cell_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="uTZ-Lq-iko">
+                                <rect key="frame" x="10" y="93" width="116" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="l24-i1-Ezf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watch_home_all_people" translatesAutoresizingMaskIntoConstraints="NO" id="2JU-x9-ojM">
+                                <rect key="frame" x="15" y="108" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="2hr-Te-LVi"/>
+                                    <constraint firstAttribute="width" constant="10" id="mDv-C4-o6V"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.3万" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dyf-Bt-u61">
+                                <rect key="frame" x="30" y="108.5" width="25.5" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playall" translatesAutoresizingMaskIntoConstraints="NO" id="3gQ-gY-Bbu">
+                                <rect key="frame" x="96" y="93" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="1XM-Vb-UtT"/>
+                                    <constraint firstAttribute="height" constant="25" id="PUD-qv-ZXW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_cover_lstop" translatesAutoresizingMaskIntoConstraints="NO" id="gWc-Fc-HK8">
+                                <rect key="frame" x="10" y="10" width="116" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="snv-h4-em9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_detail_icn_music" translatesAutoresizingMaskIntoConstraints="NO" id="6p0-rv-3ci">
+                                <rect key="frame" x="20" y="15" width="10" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="glj-oC-5Ga"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eu2-Hb-skR">
+                                <rect key="frame" x="40" y="10" width="31" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="alw-EA-6fo" firstAttribute="leading" secondItem="Bgy-LC-2kl" secondAttribute="leading" constant="10" id="26B-gp-X5X"/>
+                            <constraint firstItem="e5B-5j-efW" firstAttribute="top" secondItem="alw-EA-6fo" secondAttribute="bottom" constant="5" id="4tt-yv-rxt"/>
+                            <constraint firstItem="Eu2-Hb-skR" firstAttribute="top" secondItem="gWc-Fc-HK8" secondAttribute="top" id="7Id-Tq-58C"/>
+                            <constraint firstItem="e5B-5j-efW" firstAttribute="leading" secondItem="alw-EA-6fo" secondAttribute="leading" id="8gy-21-HLF"/>
+                            <constraint firstAttribute="trailing" secondItem="gWc-Fc-HK8" secondAttribute="trailing" constant="10" id="BBz-eC-wV0"/>
+                            <constraint firstItem="6p0-rv-3ci" firstAttribute="leading" secondItem="gWc-Fc-HK8" secondAttribute="leading" constant="10" id="Cc6-ZJ-uBU"/>
+                            <constraint firstItem="Dyf-Bt-u61" firstAttribute="leading" secondItem="2JU-x9-ojM" secondAttribute="trailing" constant="5" id="DUg-iS-6du"/>
+                            <constraint firstAttribute="bottom" secondItem="e5B-5j-efW" secondAttribute="bottom" constant="5" id="HVC-ej-tsb"/>
+                            <constraint firstItem="2JU-x9-ojM" firstAttribute="leading" secondItem="uTZ-Lq-iko" secondAttribute="leading" constant="5" id="IQe-62-W92"/>
+                            <constraint firstItem="alw-EA-6fo" firstAttribute="top" secondItem="Bgy-LC-2kl" secondAttribute="top" constant="10" id="K5v-yu-RWm"/>
+                            <constraint firstItem="uTZ-Lq-iko" firstAttribute="bottom" secondItem="alw-EA-6fo" secondAttribute="bottom" id="PfC-fA-7Fu"/>
+                            <constraint firstItem="gWc-Fc-HK8" firstAttribute="top" secondItem="Bgy-LC-2kl" secondAttribute="top" constant="10" id="Rip-J2-DOe"/>
+                            <constraint firstItem="e5B-5j-efW" firstAttribute="width" secondItem="alw-EA-6fo" secondAttribute="width" id="RwJ-hP-XjN"/>
+                            <constraint firstAttribute="trailing" secondItem="alw-EA-6fo" secondAttribute="trailing" constant="10" id="WSO-aJ-aZm"/>
+                            <constraint firstItem="Eu2-Hb-skR" firstAttribute="bottom" secondItem="gWc-Fc-HK8" secondAttribute="bottom" id="ZE4-ql-9qJ"/>
+                            <constraint firstItem="Dyf-Bt-u61" firstAttribute="top" secondItem="2JU-x9-ojM" secondAttribute="top" id="aQt-PR-rih"/>
+                            <constraint firstItem="gWc-Fc-HK8" firstAttribute="leading" secondItem="Bgy-LC-2kl" secondAttribute="leading" constant="10" id="bJ2-x8-uje"/>
+                            <constraint firstItem="3gQ-gY-Bbu" firstAttribute="bottom" secondItem="uTZ-Lq-iko" secondAttribute="bottom" constant="-5" id="deG-ax-tGZ"/>
+                            <constraint firstItem="6p0-rv-3ci" firstAttribute="bottom" secondItem="gWc-Fc-HK8" secondAttribute="bottom" constant="-5" id="grD-Ao-QGI"/>
+                            <constraint firstAttribute="bottom" secondItem="alw-EA-6fo" secondAttribute="bottom" constant="40" id="hbS-k8-SkV"/>
+                            <constraint firstItem="uTZ-Lq-iko" firstAttribute="leading" secondItem="alw-EA-6fo" secondAttribute="leading" id="k5Q-DR-KEd"/>
+                            <constraint firstItem="Eu2-Hb-skR" firstAttribute="leading" secondItem="6p0-rv-3ci" secondAttribute="trailing" constant="10" id="oNH-9x-YV4"/>
+                            <constraint firstAttribute="trailing" secondItem="3gQ-gY-Bbu" secondAttribute="trailing" constant="15" id="oZC-ef-h71"/>
+                            <constraint firstItem="2JU-x9-ojM" firstAttribute="centerY" secondItem="uTZ-Lq-iko" secondAttribute="centerY" constant="5" id="qgT-z3-p8e"/>
+                            <constraint firstItem="uTZ-Lq-iko" firstAttribute="width" secondItem="alw-EA-6fo" secondAttribute="width" id="s9h-Mw-tla"/>
+                            <constraint firstItem="Dyf-Bt-u61" firstAttribute="height" secondItem="2JU-x9-ojM" secondAttribute="height" id="voz-JE-nbI"/>
+                            <constraint firstItem="6p0-rv-3ci" firstAttribute="top" secondItem="gWc-Fc-HK8" secondAttribute="top" constant="5" id="xec-N9-8G5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bgy-LC-2kl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0kV-we-NUT"/>
+                <constraint firstAttribute="bottom" secondItem="Bgy-LC-2kl" secondAttribute="bottom" id="C7u-ee-G9d"/>
+                <constraint firstItem="Bgy-LC-2kl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="J6N-3G-cEg"/>
+                <constraint firstAttribute="trailing" secondItem="Bgy-LC-2kl" secondAttribute="trailing" id="wLh-qY-2gf"/>
+            </constraints>
+            <size key="customSize" width="136" height="163"/>
+            <connections>
+                <outlet property="authorLabel" destination="Dyf-Bt-u61" id="fYe-uS-H1U"/>
+                <outlet property="imgView" destination="alw-EA-6fo" id="gQI-kd-JmZ"/>
+                <outlet property="playcountLabel" destination="Eu2-Hb-skR" id="P7d-6X-FRR"/>
+                <outlet property="titleLabel" destination="e5B-5j-efW" id="IXm-gw-VQl"/>
+            </connections>
+            <point key="canvasLocation" x="-24" y="53.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="list_cover_lstop" width="82" height="18"/>
+        <image name="list_detail_icn_music" width="12" height="12"/>
+        <image name="playall" width="152" height="152"/>
+        <image name="watch_home_all_people" width="13" height="13"/>
+        <image name="yueku_cell_shadow" width="147" height="71"/>
+    </resources>
+</document>
